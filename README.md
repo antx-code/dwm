@@ -12,6 +12,7 @@ In order to build dwm you need the Xlib header files.
 Installation
 ------------
 If you are in Manjaro or any arch linux envirement, you should install dwm first with yay, which like below:
+
     yay -S dwm
 
 Edit config.mk to match your local setup (dwm is installed into
