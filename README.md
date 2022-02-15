@@ -8,7 +8,6 @@ Requirements
 ------------
 In order to build dwm you need the Xlib header files.
 
-
 Installation
 ------------
 If you are in Manjaro or any arch linux envirement, you should install dwm first with yay, which like below:
@@ -17,6 +16,14 @@ If you are in Manjaro or any arch linux envirement, you should install dwm first
 
 Edit config.mk to match your local setup (dwm is installed into
 the /usr/local namespace by default).
+
+If you want to use my dwm fonts, you can download nerd-fonts with yay like below:
+
+    yay -S nerd-fonts-source-code-pro
+
+or
+
+    yay -S nerd-fonts-complete
 
 Afterwards enter the following command to build and install dwm (if
 necessary as root):
@@ -36,7 +43,6 @@ Patches applied
 - [dwm-r1522-viewontag.diff](https://dwm.suckless.org/patches/viewontag/)
 - [dwm-rotatestack-20161021-ab9571b.diff](https://dwm.suckless.org/patches/rotatestack/)
 - [dwm-vanitygaps-20190508-6.2.diff](https://dwm.suckless.org/patches/vanitygaps/)
-
 
 Running dwm
 -----------
